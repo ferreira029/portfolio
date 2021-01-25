@@ -25,10 +25,10 @@ export default function Home() {
         <ReactParallaxTilt className="glass">
           { size.width <= 1200 ?
             screen === 'User' ?
-            <User name="Marc" role="<Desenvolvedor FrontEnd />" img={ProfileImg} ChangeScreen={screen => setScreen(screen)} /> :
+            <User name="Marc Ferreira" role="<Desenvolvedor FrontEnd />" img={ProfileImg} ChangeScreen={screen => setScreen(screen)} /> :
             <Skills ChangeScreen={screen => setScreen(screen)} /> :
             <>
-              <User name="Marc" role="<Desenvolvedor FrontEnd />" img={ProfileImg} />
+              <User name="Marc Ferreira" role="<Desenvolvedor FrontEnd />" img={ProfileImg} />
               <Skills />
             </>
           }
